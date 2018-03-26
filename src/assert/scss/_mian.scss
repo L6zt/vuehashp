@@ -1,0 +1,12 @@
+.clear-fix {
+  &::after, &::before {
+    display: table;
+    content: '';
+    clear: both;
+  }
+}
+.container {
+  position: relative;
+  width: 10rem;
+  margin: 0 auto;
+}
